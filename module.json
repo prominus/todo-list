@@ -1,0 +1,49 @@
+{
+  "id": "todo-list",
+  "title": "TODO List",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Running through a modules example",
+  "authors": [
+    {
+      "name": "Cody LeCair",
+      "discord": "prominus001",
+      "email": "cody.leclair.us@proton.me",
+      "url": "koaladown.com",
+      "flags": {}
+    }
+  ],
+  "url": "todolist.com",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Test Pack",
+      "name": "test-pack",
+      "type": "Macro",
+      "path": "packs/test-pack",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "scripts/todo-list.js"
+  ],
+  "styles": [
+    "styles/todo-list.css"
+  ],
+  "templates": [
+    "templates/todo-list.hbs"
+  ]
+}
